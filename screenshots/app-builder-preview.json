@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Voidforge",
+      "hasCanvas": true,
+      "bodyTextLen": 234,
+      "bodyTextHash": "d116742227e359029d1af3b46cec7728e117677948d7c680c00e51687b0e9cd2",
+      "bodyTextPrefix": "ORBITAL CITADEL VOIDFORGE Buy modules. The sphere grows as the c",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Voidforge",
+      "hasCanvas": true,
+      "bodyTextLen": 234,
+      "bodyTextHash": "d116742227e359029d1af3b46cec7728e117677948d7c680c00e51687b0e9cd2",
+      "bodyTextPrefix": "ORBITAL CITADEL VOIDFORGE Buy modules. The sphere grows as the c",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

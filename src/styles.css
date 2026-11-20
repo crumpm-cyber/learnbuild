@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #07080c;
+  --color-surface: #12141b;
+  --color-raised: #1c1f29;
+  --color-fg: #efe8d6;
+  --color-muted: #9a9184;
+  --color-line: #2e3340;
+  --color-amber: #e8a23a;
+  --color-glow: #ffd27a;
+  --font-display: "Chakra Petch", "Arial Narrow", sans-serif;
+  --font-sans: "Sora", system-ui, sans-serif;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: default;
+  }
+}
+
+.vignette {
+  box-shadow: inset 0 0 5rem 1rem var(--color-bg);
+}
+
+.dock {
+  padding-bottom: max(0.25rem, env(safe-area-inset-bottom));
+}
+
+.forge-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+.forge-next {
+  animation: forge-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes forge-pulse {
+  0%,
+  100% {
+    border-color: var(--color-amber);
+  }
+  50% {
+    border-color: var(--color-glow);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .forge-next {
+    animation: none;
+  }
+}
