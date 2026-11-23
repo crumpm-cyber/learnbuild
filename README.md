@@ -2,16 +2,11 @@
 
 Original orbital citadel tycoon. Buy modules, grow the station, collect the vault, and fly a skiff against belt raiders.
 
+Play it here (same style as the other GitHub sites):
+
+https://crumpm-cyber.github.io/learnbuild/
+
 This is not a Roblox place and it is not based on any film franchise. Inspired by the earn-build-expand tycoon loop only.
-
-## Run
-
-```bash
-npm install
-npm run dev
-```
-
-Progress saves in the browser (`localStorage`).
 
 ## Play
 
@@ -20,3 +15,5 @@ Progress saves in the browser (`localStorage`).
 - **Launch** flies the skiff. W / ↑ thrust, A / ← turns left, D / → turns right, Space or Fire shoots. Ram or shoot raiders. L or Dock returns.
 - **Reforge** (after the Amber Reactor) resets the build for a permanent yield mark.
 - **Signal** has one-time frequencies: `SLAG`, `KILN`, `ORBIT`.
+
+Progress saves in the browser (`localStorage`).

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@source "./game";
 
 @theme {
   --color-bg: #07080c;
